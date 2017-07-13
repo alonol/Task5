@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>Task5</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="../public/bootstrap.css" rel="stylesheet">
+
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,5 +13,19 @@
 </head>
 <body>
   <app-root>Loading...</app-root>
+
+  <!-- jQuery -->
+  <script src="../public/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="../public/bootstrap.js"></script>
+
+  <script>
+    $(document).tooltip({ selector: "[title]",
+      placement: "top",
+      trigger: "focus",
+      animation: false});
+  </script>
+
 </body>
 </html>
