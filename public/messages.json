@@ -1,0 +1,217 @@
+    [
+        {
+            "name": "Msg1",
+            "text": ["txt1", "txt2", "txt3", "txt4"]
+            ,
+            "pictures": [
+                "pic1","pic2"
+            ],
+            "template": "templateA",
+            "screens":  ["1","2"],
+            "timeSeconds": "2",
+            "timesToShow": [
+                {
+                    "dates": [
+                        {
+                            "startTime": "01-01-2017",
+                            "endTime": "31-12-2017"
+                        }
+                    ]
+                ,
+
+                    "daysInWeek": [
+                        "Monday"
+                    ]
+                ,
+
+                    "hoursInDay": [
+                        {
+                            "start": "06:00",
+                            "end": "12:00"
+                        }
+                    ]
+                },
+                {
+                    "dates": [
+                        {
+                            "startTime": "01-01-2017",
+                            "endTime": "31-12-2017"
+                        }
+                    ]
+                ,
+                    "daysInWeek": [
+                        "Wednesday"
+                    ]
+                ,
+
+                    "hoursInDay": [
+                        {
+                            "start": "13:00",
+                            "end": "20:00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Msg2",
+            "text": [
+              "txt1",
+              "txt2",
+              "txt3",
+              "txt4",
+              "txt5",
+              "txt6",
+              "txt7",
+              "txt8",
+              "txt9",
+              "txt10"
+            ],
+            "pictures": [
+                "pic1"
+            ],
+            "template": "templateB",
+            "screens":  ["1","3"]             ,
+            "timeSeconds": "4",
+            "timesToShow": [
+                {
+                    "dates": [
+                        {
+                            "startTime": "01-03-2017",
+                            "endTime": "30-05-2017"
+                        }
+                    ]
+                    ,
+
+                    "daysInWeek": [
+                        "Tuesday",
+                        "Wednesday"
+                    ]
+                    ,
+
+                    "hoursInDay": [
+                        {
+                            "start": "10:00",
+                            "end": "16:00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Msg3",
+            "text": [],
+            "pictures": [],
+            "template": "templateC",
+            "screens":  ["2","3"],
+            "timeSeconds": "2",
+            "timesToShow": [
+                {
+                    "dates": [
+                        {
+                            "startTime": "01-05-2017",
+                            "endTime": "15-06-2017"
+                        }
+                    ]
+                    ,
+
+                    "daysInWeek": [
+                      "Sunday",
+                      "Monday",
+                      "Tuesday",
+                      "Wednesday",
+                      "Thursday",
+                      "Friday",
+                      "Saturday"
+                    ]
+                    ,
+
+                    "hoursInDay": [
+                        {
+                            "start": "08:00",
+                            "end": "22:00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Msg4",
+            "text": [
+                "txt1",
+                "txt2"
+            ],
+            "pictures": [],
+            "template": "templateA",
+            "screens":  ["1"]
+            ,
+            "timeSeconds": "30",
+            "timesToShow": [
+                {
+                    "dates": [
+                        {
+                            "startTime": "29-03-2017",
+                            "endTime": "15-04-2017"
+                        }
+                    ]
+                    ,
+
+                    "daysInWeek": [
+                        {"value": "Monday"}
+                    ]
+                    ,
+
+                    "hoursInDay": [
+                        {
+                            "start": "15:00",
+                            "end": "19:00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Msg5",
+            "text": [
+              "txt1",
+              "txt2",
+              "txt3",
+              "txt4",
+              "txt5",
+              "txt6",
+              "txt7"
+            ],
+            "pictures": [
+                "pic1",
+                "pic2"
+            ],
+            "template": "templateB",
+             "screens":  ["3"],
+            "timeSeconds": "3",
+            "timesToShow": [
+                {
+                    "dates": [
+                        {
+                            "startTime": "01-04-2017",
+                            "endTime": "30-04-2017"
+                        }
+                    ]
+                    ,
+
+                    "daysInWeek": [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday"
+                    ]
+                    ,
+
+                    "hoursInDay": [
+                        {
+                            "start": "01:00",
+                            "end": "23:00"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
