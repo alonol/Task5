@@ -1,6 +1,7 @@
 /**
  * Created by Alon on 12/07/2017.
  */
+
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
@@ -29,8 +30,10 @@ const messages = require('./routes/messages');
 //Port Number
 const port = 8080;
 
-app.use(express.static(path.join(__dirname,'public')));
-app.use(express.static(path.join(__dirname,'src')));
+// app.use(express.static('public'));
+app.use('/public', express.static(path.join(__dirname, 'public')))
+app.use(express.static('out'));
+// app.use('/src', express.static(path.join(__dirname, 'src')))
 
 //Body Parser Middleware
 app.use(bodyParser.json());

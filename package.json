@@ -21,6 +21,8 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
     "core-js": "^2.4.1",
+    "express": "^4.15.3",
+    "has-binary2": "^1.0.2",
     "http": "0.0.0",
     "mongodb": "^2.2.30",
     "mongoose": "^4.11.1",
